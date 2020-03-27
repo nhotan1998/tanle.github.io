@@ -1,0 +1,268 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-image:url(images/thoitrang1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+.navbar-nav li a{
+    float: right;
+    color:#000 !important;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar-toggler{
+    border:none !important;
+    outline: none !important;
+}
+nav .fa-bars{
+    color:#666;
+    font-size: 30px;
+}
+/*--------------------welcome Text-----------------*/
+.welcome{
+    padding:40px 200px;
+    margin-top: -100px;
+    background-color: #fff;
+    box-shadow: 0px 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1{
+    color:#333;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding:10px 30px;
+    border-radius: 30px;
+    color:#fff;
+    background-color: #013f7e;
+    outline:none;
+    margin-left: 320px;
+}
+.welcome .home-btn a{
+    text-decoration: none;
+    color:#fff;
+}
+.welcome .home-btn:hover{
+  background: #666;
+}
+.welcome .btn{
+    box-shadow: none;
+}
+/*-------------------About---------------*/
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6{
+    padding: 30px 10px;
+}
+#about h3{
+    margin:auto;
+}
+#about p{
+    margin:10px;
+}
+#col-md-6 .img{
+    padding:30px;
+}
+
+/*-----------------services-----------------*/
+#services{
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    cursor: pointer;
+}
+#services .col-md-4{
+    padding:30px
+}
+#services .col-md-4 h4{
+    padding:10px;
+    text-align: center;
+}
+#services .col-md-4 img{
+    width:50px;
+    transition: 0.5s linear;
+}
+#services .col-md-4 img:hover{
+    transform: translateY(-20px);
+}
+#services .col-md-4 p{
+  padding:5px;
+  text-align: center;
+}
+/*-----------------Features---------------*/
+#features{
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8)), url(images/thoitrang8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+#features .col-md-6 img{
+    cursor: pointer;
+    transition: 1s linear;
+    width:200px;
+    height:300px;
+}
+.col-md-6 img:hover{
+    transform: translateY(-20px);
+}
+#features .col-md-6{
+    padding:30px;
+}
+.col-md-6 .features-box{
+    height:100px;
+}
+.col-md-6 .features-box .features-left{
+    height:120px;
+    width:20%;
+    float:left;
+}
+.col-md-6 .features-box .features-right{
+    padding-left: 10em;
+    padding-top:-30px;
+}
+.col-md-6 .features-box .features-right h4{
+    padding-top: 0px;
+    padding-left: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-md-6 .features-box .features-right p{
+    padding-left: 20px;
+    padding-top:20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+/*--------------------testimonilas--------------*/
+#testimonilas{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonilas .col-md-4{
+    padding:10px 30px;
+}
+#testimonilas img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: -30px;
+    margin-top: -60px;
+}
+.review{
+    font-size: 16px;
+    padding:10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+.text-center{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.box{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+/*---------------------subcribe-----------------*/
+#subcribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.2);
+}
+.text-box h3{
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    padding-bottom: 10px;
+}
+.text-box p{
+    text-align: center;
+    color:#fff;
+}
+.input-group-append .btn{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    color:#fff;
+    font-weight: 500;
+    outline: none;
+    border-radius: 30px;
+}
+ .input-group .form-control{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 1000px;
+    padding:5px;
+}
+.input-group-append .btn:hover{
+    background-image: linear-gradient(to right, #b0eebb, #29d462);
+}
+/*-----------Footer-----------*/
+#footer{
+    margin-top:80px;
+    padding-top:100px;
+    background-color: #eaeaea;
+    color:#013f7e;
+    padding-bottom: 100px;
+}
+.footer-logo{
+    width:150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    margin-top:50px;
+    margin-left: 50px;
+}
+#footer p{
+    margin-left:50px;
+}
+#footer h5{
+    margin-left: 50px;
+    font-size: 20px;
+}
+#footer .col-md-3{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#footer .col-md-3 img{
+    margin-left: 50px;
+}
+.nav{
+    float: left;
+    margin-top:40px;
+    font-size: 20px;
+}
+.nav:hover{
+   color: #000;
+   cursor: pointer;
+}
+.end{
+    display: flex;
+}
+.mov{
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 1s linear;
+}
+.mov:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
